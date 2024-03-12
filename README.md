@@ -1,4 +1,4 @@
-**Individual File Separator**
+**Individual File Separator & Muscle Length Calculation Tool**
 
 The Individual File Separator script is a tool designed to extract individual ITK Snap masks from a single file containing multiple masks. This can be particularly useful when you have a file containing all segmented muscles and need to analyze them individually.
 
@@ -43,5 +43,16 @@ Here's an example of the label description file:
 3. Run the script in MATLAB.
 4. Follow the prompts to specify the source file, mask file, and label description file.
 5. The script will then separate the individual masks and save them as separate files.
+
+
+
+**Muscle Length Calculation:**
+
+Once you have individual muscle masks, you can input them into the Muscle Length Calculation script to compute the length of each muscle.
+1.Ensure that the masks are properly segmented and saved as individual files.
+2.Run the script in MATLAB and specify the directory containing the individual muscle masks.
+3.The script will calculate the length of each muscle and provide the results.
+Note: It's essential to follow the correct file formatting and directory structure for both scripts to function properly. Make sure to read the instructions provided in the scripts and ensure that the input files are appropriately prepared.
+
 
 **Note:** Make sure the source file, mask file, and label description file are correctly formatted and located in the same directory as the script for proper execution.
